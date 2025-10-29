@@ -1,8 +1,8 @@
 # required configuration options
 name: Fusion (cd1zz-dev)
-version: 2024.10.2
+version: 2024.10.3
 slug: ha_fusion
-description: A modern, easy-to-use and performant custom Home Assistant dashboard (Testing Fork - Item Visibility Template - v5ab50b9)
+description: A modern, easy-to-use and performant custom Home Assistant dashboard (Testing Fork - Item Visibility Template - vf4a1718)
 arch:
   - aarch64
   - amd64
@@ -40,7 +40,7 @@ build_from:
   amd64: ghcr.io/home-assistant/amd64-base:3.20
   armv7: ghcr.io/home-assistant/armv7-base:3.20
 args:
-  BUILD_VERSION: "2024.10.2"
+  BUILD_VERSION: "2024.10.3"
 
 # docker hub - commented out for local build from repository
 # image: matt8707/addon-ha-fusion-{arch}
