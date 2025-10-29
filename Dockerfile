@@ -1,5 +1,6 @@
 # ha base image
 ARG BUILD_FROM
+ARG BUILD_VERSION=2024.10.2
 
 # first stage, can't use alpine for building armv7
 FROM node:22 AS builder
@@ -7,7 +8,10 @@ WORKDIR /app
 
 ### remote
 # clone, build and remove repo example data
-RUN git clone --depth 1 https://github.com/cd1zz/ha-fusion . && \
+# BUILD_VERSION argument forces rebuild when version changes
+ARG BUILD_VERSION
+RUN echo "Building version: ${BUILD_VERSION}" && \
+  git clone --depth 1 https://github.com/cd1zz/ha-fusion . && \
   npm install --verbose && \
   npm run build && \
   npm prune --omit=dev && \
