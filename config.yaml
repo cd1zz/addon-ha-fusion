@@ -34,5 +34,5 @@ hassio_api: true
 ports:
   8099/tcp: null
 
-# docker hub
-image: matt8707/addon-ha-fusion-{arch}
+# docker hub - commented out for local build from repository
+# image: matt8707/addon-ha-fusion-{arch}
