@@ -1,8 +1,8 @@
 # required configuration options
-name: Fusion
-version: 2024.10.1
+name: Fusion (cd1zz-dev)
+version: 2024.10.1-dev
 slug: ha_fusion
-description: A modern, easy-to-use and performant custom Home Assistant dashboard
+description: A modern, easy-to-use and performant custom Home Assistant dashboard (Testing Fork)
 arch:
   - aarch64
   - amd64
