@@ -8,10 +8,12 @@ WORKDIR /app
 
 ### remote
 # clone, build and remove repo example data
-# BUILD_VERSION argument forces rebuild when version changes
+# Always fetch latest by using --no-cache for git clone
 ARG BUILD_VERSION
 RUN echo "Building version: ${BUILD_VERSION}" && \
+  echo "Timestamp: $(date +%s)" && \
   git clone --depth 1 https://github.com/cd1zz/ha-fusion . && \
+  git log -1 --format="%H %s" && \
   npm install --verbose && \
   npm run build && \
   npm prune --omit=dev && \
