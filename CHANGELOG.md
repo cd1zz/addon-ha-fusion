@@ -1,4 +1,14 @@
-## What's Changed
+# Changelog
+
+> **Note:** This is a development fork of [ha-fusion](https://github.com/matt8707/ha-fusion). Changes below are from the original project.
+
+## Fork-specific changes
+
+See: https://github.com/cd1zz/ha-fusion/commits/main
+
+## Upstream changes (from original project)
+
+### What's Changed
 * Fix picture elements add new image by @matt8707 in https://github.com/matt8707/ha-fusion/pull/579
 
 

@@ -12,7 +12,7 @@ arch:
 init: false
 
 # homepage of the add-on
-url: https://github.com/matt8707/addon-ha-fusion
+url: https://github.com/cd1zz/addon-ha-fusion
 
 # icon for the menu panel integration
 panel_icon: mdi:atom
