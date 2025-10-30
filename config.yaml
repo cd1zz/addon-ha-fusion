@@ -1,6 +1,6 @@
 # required configuration options
 name: Fusion (cd1zz-dev)
-version: 2025.10.0
+version: 2025.10.1
 slug: ha_fusion
 description: A modern, easy-to-use and performant custom Home Assistant dashboard (Testing Fork - Item Visibility Template - v1c6ddc8)
 arch:
